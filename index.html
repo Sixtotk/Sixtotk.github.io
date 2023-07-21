@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STMG</title>
+    <title>Mendoza</title>
+    <link rel="icon" href="imagenes/logo.svg" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   
@@ -20,17 +21,17 @@
      </div>
      <nav class="menu-laptop">
       <ul>
-          <li><a href="#">Sobre mí</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#sobre">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
   </header>
   <nav class="menu">
     <ul>
-        <li><a href="#">Sobre mí</a></li>
-        <li><a href="#">Proyectos</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#sobre">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
     </ul>
   </nav>
   <main>
@@ -49,15 +50,23 @@
         </h2>
       </div>
       <div class="contenedor-curriculum-icons">
-        <button class="boton-curriculum">Currículum</button>
+        <a href="https://drive.google.com/file/d/1fI-tOQWekM7YqMBW9-hvWe62-DCo_BaW/view?usp=sharing" target="_blank" rel="noreferrer">
+          <button class="boton-curriculum">Currículum</button>
+        </a>
         <div class="icons-contenedor">
-          <i class="fab fa-whatsapp icons" style="color: #25D366;"></i>
-          <i class="fab fa-linkedin icons" style="color: #0077B5"></i>
-          <i class="fab fa-github icons" style="color: #24292E;"></i>
+          <a href="https://wa.me/51912348255" target="_blank" rel="noreferrer">
+            <i class="fab fa-whatsapp icons" style="color: #25D366;"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/sixto-mendoza-orden/"" target="_blank" rel="noreferrer">
+            <i class="fab fa-linkedin icons" style="color: #0077B5"></i>
+          </a>
+          <a href="https://github.com/Sixtotk" target="_blank" rel="noreferrer">
+            <i class="fab fa-github icons" style="color: #24292E;"></i>
+          </a>
         </div>
       </div>
     </div>
-    <div class="contenedor-sobre-mi">
+    <div class="contenedor-sobre-mi" id="sobre">
         <h4 class="texto-sobre-mi">
           Hola, soy Sixto Tulio Mendoza García, un desarrollador web Full Stack con experiencia en diversos sectores laborales, como logística, atención al cliente y capacitación laboral, entre otros. Esta diversidad me ha brindado la oportunidad de desarrollar habilidades clave como adaptabilidad, creatividad, resolución de problemas, trabajo en equipo, comunicación y autonomía.<br/><br/>
 
@@ -171,13 +180,15 @@
         También poseo experiencia en el uso de herramientas como Git, GitHub, Figma y Trello, además de conocimientos en Scrum, lo que me permite desarrollar proyectos de manera eficiente y colaborativa.
       </h4>
       <div class="contenedor-iconos-herramientas">
-        <i class="fab fa-git-alt icons-skills" style="color: #F05032;"></i><i class=""></i>
-        <i class="fab fa-github icons-skills" style="color: #181717;"></i><i class=""></i>
-        <img class="svgs-icons" src="imagenes/figma-color.svg" alt="Ícono de Tailwind CSS">
-        <img class="svgs-icons" src="imagenes/trello-color.svg" alt="Ícono de Tailwind CSS">
+        <div class="contenedor-iconos-h">
+          <i class="fab fa-git-alt icons-skills" style="color: #F05032;"></i><i class=""></i>
+          <i class="fab fa-github icons-skills" style="color: #181717;"></i><i class=""></i>
+          <img class="svgs-icons" src="imagenes/figma-color.svg" alt="Ícono de Tailwind CSS">
+          <img class="svgs-icons" src="imagenes/trello-color.svg" alt="Ícono de Tailwind CSS">
+        </div>
       </div> 
     </div>
-    <div class="contenedor-proyectos">
+    <div class="contenedor-proyectos" id="proyectos">
       <h5 class="titulo-proyecto">
         Proyectos
       </h5>
@@ -186,17 +197,19 @@
           <img class="imagen-proyectos" src="imagenes/Proyecto1.png" alt="pokemon">
             <div class="project-overlay">
             <p class="project-text"><strong>PokeApp (13/10/2022)</strong> <br/><br/>
+              CRUD de Pokémon <br/><br/>
              Tecnologías: JavaScript, React, Redux, CSS,  PostgreSQL, Sequelize, Node.js y Express.</p>
-             <a class="project-link" href="https://stmg.vercel.app" target="_blank" rel="noreferrer">Visitar Sitio Web</a>
+             <a class="project-link" style="width: max-content;" href="https://pokemon-sixto.vercel.app" target="_blank" rel="noreferrer">Visitar Sitio Web</a>
           </div>
         </div>
         <div class="contenedor-imagen-proyecto">
           <img class="imagen-proyectos" src="imagenes/Proyecto2.png" alt="dionisia">
             <div class="project-overlay">
             <p class="project-text"><strong> Dionisia (15/01/2023)</strong><br/><br/>
+              E-commerce de vinos<br/><br/>
               Tecnologías: Typescript, Next.js, Redux, Node.js, 
               Express, PostgreSQL, Sequelize,  Nodemailer, Auth0, cloudinary, Paypal, Stripe.</p>
-              <a class="project-link" href="https://stmg.vercel.app" target="_blank" rel="noreferrer">Visitar Sitio Web</a>
+              <a class="project-link" style="width: max-content;"  href="https://la-dionisia-front.vercel.app" target="_blank" rel="noreferrer">Visitar Sitio Web</a>
           </div>
         </div>
       </div>
@@ -223,8 +236,12 @@
         </div>
       </div>
       <div class="icons-contenedor">
-        <i class="fab fa-linkedin icons" style="color: #0077B5"></i>
-        <i class="fab fa-github icons" style="color: #24292E;"></i>
+        <a href="https://www.linkedin.com/in/guillermo-ojeda-140742208/" target="_blank" rel="noreferrer">
+          <i class="fab fa-linkedin icons" style="color: #0077B5"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/guillermo-ojeda-140742208/" target="_blank" rel="noreferrer">
+          <i class="fab fa-github icons" style="color: #24292E;"></i>
+        </a>
       </div>
         <p class="texto-referencias">
           <strong>Guillermo Ojeda</strong><br/><br/>
@@ -242,8 +259,12 @@
           </div>
         </div>
         <div class="icons-contenedor">
-          <i class="fab fa-linkedin icons" style="color: #0077B5"></i>
-          <i class="fab fa-github icons" style="color: #24292E;"></i>
+          <a href="https://www.linkedin.com/in/carmelo-cabezon-662a4923a/" target="_blank" rel="noreferrer">
+            <i class="fab fa-linkedin icons" style="color: #0077B5"></i>
+          </a>
+          <a href="https://github.com/PinchiDev" target="_blank" rel="noreferrer">
+            <i class="fab fa-github icons" style="color: #24292E;"></i>
+          </a>
         </div>
           <p class="texto-referencias">
             <strong>Carmelo Cabezón</strong><br/><br/>
@@ -259,13 +280,19 @@
   <div class="foto-fin">
     <img class="" src="imagenes/Mendoza2.png" alt="Mi Imagen">
   </div>
-  <footer>
-    <p class="texto-footer">Hecho por mí</p>
+  <footer id="contacto">
+    <p class="texto-footer">Hecho por: sixtoorden@gmail.com</p>
     <div class="contenedor-iconos-herramientas">
-      <i class="fab fa-whatsapp icons-skills" style="color: #25D366;"></i>
-      <i class="fab fa-linkedin icons-skills" style="color: #0077B5"></i>
-      <i class="fab fa-github icons-skills" style="color:#181717;"></i>
-      <i class="fas fa-envelope-open icons-skills" style="color: #D44638;"></i>
+      <div class="contenedor-iconos-h"> 
+        <a href="https://wa.me/51912348255" target="_blank" rel="noreferrer">
+          <i class="fab fa-whatsapp icons-skills" style="color: #25D366;"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sixto-mendoza-orden/"" target="_blank" rel="noreferrer">
+          <i class="fab fa-linkedin icons-skills" style="color: #0077B5"></i>
+        </a>
+        <a href="https://github.com/Sixtotk" target="_blank" rel="noreferrer">
+          <i class="fab fa-github icons-skills" style="color: #24292E;"></i>
+      </div>
     </div> 
     
   </footer>
@@ -280,6 +307,20 @@
   function toggleMenu() {
     const menu = document.querySelector('.menu');
     menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+}
+
+const navbarLinks = document.querySelectorAll('.navbar a');
+
+navbarLinks.forEach(link => {
+    link.addEventListener('click', scrollToSection);
+});
+
+function scrollToSection(event) {
+    event.preventDefault();
+    const targetId = event.target.getAttribute('href');
+    const targetSection = document.querySelector(targetId);
+
+    targetSection.scrollIntoView({ behavior: 'smooth' });
 }
 </script>
 </html>
