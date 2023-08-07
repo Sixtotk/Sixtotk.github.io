@@ -10,46 +10,46 @@
   
 </head>
 <body>
-  <header class="barra-navegadora-principal">
-    <h1 class="barra-navegadora-nombre">
-      Sixto Mendoza
-    </h1>
-    <div class="menu-icon" onclick="toggleMenu()">
+  <header>
+    <nav class="barra-navegadora-principal">
+      <h1 class="barra-navegadora-nombre">Sixto Mendoza</h1>
+      <div class="menu-icon" onclick="toggleMenu()">
         <div class="bar"></div>
         <div class="bar"></div>
         <div class="bar"></div>
-     </div>
-     <nav class="menu-laptop">
-      <ul>
+      </div>
+      <nav class="menu-laptop">
+        <ul>
           <li><a href="#sobre">Sobre mí</a></li>
           <li><a href="#proyectos">Proyectos</a></li>
           <li><a href="#contacto">Contacto</a></li>
-      </ul>
+        </ul>
+      </nav>
     </nav>
-  </header>
-  <nav class="menu">
-    <ul>
+    <nav class="menu">
+      <ul>
         <li><a href="#sobre">Sobre mí</a></li>
         <li><a href="#proyectos">Proyectos</a></li>
         <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </nav>
+      </ul>
+    </nav>
+  </header>
   <main>
-    <div class="contenedor-perfil-perfil">
-      <div class="perfil-principal">
+    <section class="contenedor-perfil-perfil">
+      <article class="perfil-principal">
         <img class="foto-perfil" src="imagenes/MendozaLogo.png" alt="Mi Imagen">
         <div class="barras-foto">
           <div class="barF"></div>
           <div class="barF"></div>
           <div class="barF"></div>
         </div>
-      </div>
-      <div class="texto-perfil-principal">
+      </article>
+      <article class="texto-perfil-principal">
         <h2 class="texto-perfil">
-          Mi pasión por el desarrollo web me impulsa a buscar constantemente nuevos desafíos y aprender nuevas tecnologías   para ofrecer soluciones innovadoras y eficientes.
+          Mi pasión por el desarrollo web me impulsa a buscar constantemente nuevos desafíos y aprender nuevas tecnologías para ofrecer soluciones innovadoras y eficientes.
         </h2>
-      </div>
-      <div class="contenedor-curriculum-icons">
+      </article>
+      <article class="contenedor-curriculum-icons">
         <a href="https://drive.google.com/file/d/1fI-tOQWekM7YqMBW9-hvWe62-DCo_BaW/view?usp=sharing" target="_blank" rel="noreferrer">
           <button class="boton-curriculum">Currículum</button>
         </a>
@@ -57,199 +57,195 @@
           <a href="https://wa.me/51912348255" target="_blank" rel="noreferrer">
             <i class="fab fa-whatsapp icons" style="color: #25D366;"></i>
           </a>
-          <a href="https://www.linkedin.com/in/sixto-mendoza-orden/"" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/sixto-mendoza-orden/" target="_blank" rel="noreferrer">
             <i class="fab fa-linkedin icons" style="color: #0077B5"></i>
           </a>
           <a href="https://github.com/Sixtotk" target="_blank" rel="noreferrer">
             <i class="fab fa-github icons" style="color: #24292E;"></i>
           </a>
         </div>
-      </div>
-    </div>
-    <div class="contenedor-sobre-mi" id="sobre">
-        <h4 class="texto-sobre-mi">
-          Hola, soy Sixto Tulio Mendoza García, un desarrollador web Full Stack con experiencia en diversos sectores laborales, como logística, atención al cliente y capacitación laboral, entre otros. Esta diversidad me ha brindado la oportunidad de desarrollar habilidades clave como adaptabilidad, creatividad, resolución de problemas, trabajo en equipo, comunicación y autonomía.<br/><br/>
+      </article>
+    </section>
+    <section class="contenedor-sobre-mi" id="sobre">
+      <h4 class="texto-sobre-mi">
+        Hola, soy Sixto Tulio Mendoza García, un desarrollador web Full Stack con experiencia en diversos sectores laborales, como logística, atención al cliente y capacitación laboral, entre otros. Esta diversidad me ha brindado la oportunidad de desarrollar habilidades clave como adaptabilidad, creatividad, resolución de problemas, trabajo en equipo, comunicación y autonomía.<br><br>
 
-          Además, cuento con sólidos conocimientos en metodologías ágiles, Git, estructura de datos, algoritmos y frameworks. Tengo experiencia en el desarrollo tanto del Frontend como del Backend, utilizando tecnologías como Node.js, React, Typescript, Redux, PostgreSQL y otras herramientas.
-        </h4>
-        
-    </div>
-    <div class="contenedor-skills-principal">
-      <div class="contenedor-skills">
-      <div class="skills">
-        <div class="contenedor-imagenes-skills">
-          <img class="lenguajes-fotos" src="imagenes/Group23.png" alt="lenguajes">
-          <div class="barras-foto">
-            <div class="barF"></div>
-            <div class="barF"></div>
-            <div class="barF"></div>
+        Además, cuento con sólidos conocimientos en metodologías ágiles, Git, estructura de datos, algoritmos y frameworks. Tengo experiencia en el desarrollo tanto del Frontend como del Backend, utilizando tecnologías como Node.js, React, Typescript, Redux, PostgreSQL y otras herramientas.
+      </h4>
+    </section>
+    <section class="contenedor-skills-principal">
+      <article class="contenedor-skills">
+        <article class="skills">
+          <div class="contenedor-imagenes-skills">
+            <img class="lenguajes-fotos" src="imagenes/Group23.png" alt="lenguajes">
+            <div class="barras-foto">
+              <div class="barF"></div>
+              <div class="barF"></div>
+              <div class="barF"></div>
+            </div>
           </div>
-        </div>
-        <h5 class="texto-titulo-skills">
-          Lenguajes
-        </h5>
-        <div class="iconos-skills">
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">Javascript</h6>
-            <i class="fab fa-js icons-skills" style="color: #F7DF1E; background-color: #24292E;"></i>
+          <h5 class="texto-titulo-skills">
+            Lenguajes
+          </h5>
+          <div class="iconos-skills">
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">Javascript</h6>
+              <i class="fab fa-js icons-skills" style="color: #F7DF1E; background-color: #24292E;"></i>
+            </div>
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">Typescript</h6>
+              <i class="fab fa-js-square icons-skills" style="color: #007ACC;"></i>
+            </div>   
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">Rails</h6>
+              <img class="svgs-icons" src="imagenes/ruby-color.svg" alt="Ícono de Tailwind CSS">
+            </div>   
           </div>
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">Typescript</h6>
-            <i class="fab fa-js-square icons-skills" style="color: #007ACC;"></i>
-          </div>   
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">Rails</h6>
-            <img class="svgs-icons" src="imagenes/ruby-color.svg" alt="Ícono de Tailwind CSS">
-          </div>   
-        </div>
-      </div>
-      <div class="skills">
-        <div class="contenedor-imagenes-skills">
-          <img class="lenguajes-fotos" src="imagenes/Group24.png" alt="lenguajes">
-          <div class="barras-foto">
-            <div class="barF"></div>
-            <div class="barF"></div>
-            <div class="barF"></div>
+        </article>
+        <article class="skills">
+          <div class="contenedor-imagenes-skills">
+            <img class="lenguajes-fotos" src="imagenes/Group24.png" alt="lenguajes">
+            <div class="barras-foto">
+              <div class="barF"></div>
+              <div class="barF"></div>
+              <div class="barF"></div>
+            </div>
           </div>
-        </div>
-        <h5 class="texto-titulo-skills">
-          Front-End
-        </h5>
-        <div class="iconos-skills">
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">HTML</h6>
-            <i class="fab fa-html5 icons-skills" style="color: #E44D26;"></i>
+          <h5 class="texto-titulo-skills">
+            Front-End
+          </h5>
+          <div class="iconos-skills">
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">HTML</h6>
+              <i class="fab fa-html5 icons-skills" style="color: #E44D26;"></i>
+            </div>
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">CSS</h6>
+              <i class="fab fa-css3-alt icons-skills" style="color: #1572B6;"></i>
+            </div>
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">React</h6>
+              <i class="fab fa-react icons-skills" style="color: #61DAFB; background-color: #24292E; border-radius: 9999px;"></i>
+            </div>
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">Redux</h6>
+              <img class="svgs-icons" src="imagenes/redux-color.svg" alt="Ícono de Tailwind CSS">
+            </div>   
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">Tailwind</h6>
+              <img class="svgs-icons" src="imagenes/tailwindcss-color.svg" alt="Ícono de Tailwind CSS">
+            </div>
           </div>
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">CSS</h6>
-            <i class="fab fa-css3-alt icons-skills" style="color: #1572B6;"></i>
+        </article>
+        <article class="skills">
+          <div class="contenedor-imagenes-skills">
+            <img class="lenguajes-fotos" src="imagenes/Group24.png" alt="lenguajes">
+            <div class="barras-foto">
+              <div class="barF"></div>
+              <div class="barF"></div>
+              <div class="barF"></div>
+            </div>
           </div>
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">React</h6>
-            <i class="fab fa-react icons-skills" style="color: #61DAFB; background-color: #24292E; border-radius: 9999px;"></i>
+          <h5 class="texto-titulo-skills">
+            Back-End
+          </h5>
+          <div class="iconos-skills">
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">Node.Js</h6>
+              <i class="fab fa-node-js icons-skills" style="color: #339933;"></i><i class=""></i>
+            </div>
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">Express</h6>
+              <img class="svgs-icons" src="imagenes/express-color.svg" alt="Ícono de Tailwind CSS">
+            </div>  
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">PostgreSQL</h6>
+              <img class="svgs-icons" src="imagenes/postgresql-color.svg" alt="Ícono de Tailwind CSS">
+            </div> 
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">Sequelize</h6>
+              <img class="svgs-icons" src="imagenes/sequelize-color.svg" alt="Ícono de Tailwind CSS">
+            </div>   
+            <div class="contenedor-iconos">
+              <h6 class="texto-skills">Rails</h6>
+              <img class="svgs-icons" src="imagenes/rubyonrails-color.svg" alt="Ícono de Tailwind CSS">
+            </div>  
           </div>
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">Redux</h6>
-            <img class="svgs-icons" src="imagenes/redux-color.svg" alt="Ícono de Tailwind CSS">
-          </div>   
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">Tailwind</h6>
-            <img class="svgs-icons" src="imagenes/tailwindcss-color.svg" alt="Ícono de Tailwind CSS">
-          </div>  
-        </div>
-      </div>
-      <div class="skills">
-        <div class="contenedor-imagenes-skills">
-          <img class="lenguajes-fotos" src="imagenes/Group25.png" alt="lenguajes">
-          <div class="barras-foto">
-            <div class="barF"></div>
-            <div class="barF"></div>
-            <div class="barF"></div>
-          </div>
-        </div>
-        <h5 class="texto-titulo-skills">
-          Back-End
-        </h5>
-        <div class="iconos-skills">
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">Node.Js</h6>
-            <i class="fab fa-node-js icons-skills" style="color: #339933;"></i><i class=""></i>
-          </div>
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">Express</h6>
-            <img class="svgs-icons" src="imagenes/express-color.svg" alt="Ícono de Tailwind CSS">
-          </div>  
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">PostgreSQL</h6>
-            <img class="svgs-icons" src="imagenes/postgresql-color.svg" alt="Ícono de Tailwind CSS">
-          </div> 
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">Sequelize</h6>
-            <img class="svgs-icons" src="imagenes/sequelize-color.svg" alt="Ícono de Tailwind CSS">
-          </div>   
-          <div class="contenedor-iconos">
-            <h6 class="texto-skills">Rails</h6>
-            <img class="svgs-icons" src="imagenes/rubyonrails-color.svg" alt="Ícono de Tailwind CSS">
-          </div>  
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class="contenedor-herramientas">
+        </article>
+      </article>
+    </section>
+    <section class="contenedor-herramientas">
       <h4 class="texto-herramientas">
         También poseo experiencia en el uso de herramientas como Git, GitHub, Figma y Trello, además de conocimientos en Scrum, lo que me permite desarrollar proyectos de manera eficiente y colaborativa.
       </h4>
       <div class="contenedor-iconos-herramientas">
         <div class="contenedor-iconos-h">
-          <i class="fab fa-git-alt icons-skills" style="color: #F05032;"></i><i class=""></i>
-          <i class="fab fa-github icons-skills" style="color: #181717;"></i><i class=""></i>
+          <i class="fab fa-git-alt icons-skills" style="color: #F05032;"></i>
+          <i class="fab fa-github icons-skills" style="color: #181717;"></i>
           <img class="svgs-icons" src="imagenes/figma-color.svg" alt="Ícono de Tailwind CSS">
           <img class="svgs-icons" src="imagenes/trello-color.svg" alt="Ícono de Tailwind CSS">
         </div>
       </div> 
-    </div>
-    <div class="contenedor-proyectos" id="proyectos">
+    </section>
+    <section class="contenedor-proyectos" id="proyectos">
       <h5 class="titulo-proyecto">
         Proyectos
       </h5>
       <div class="contenedor-proyectos">
         <div class="contenedor-imagen-proyecto">
           <img class="imagen-proyectos" src="imagenes/Proyecto1.png" alt="pokemon">
-            <div class="project-overlay">
-            <p class="project-text"><strong>PokeApp (13/10/2022)</strong> <br/><br/>
-              CRUD de Pokémon <br/><br/>
+          <div class="project-overlay">
+            <p class="project-text"><strong>PokeApp (13/10/2022)</strong> <br><br>
+              CRUD de Pokémon <br><br>
              Tecnologías: JavaScript, React, Redux, CSS,  PostgreSQL, Sequelize, Node.js y Express.</p>
-             <a class="project-link" style="width: max-content;" href="https://pokeapp-sixto-mendoza.vercel.app" target="_blank" rel="noreferrer">Visitar Sitio Web</a>
+            <a class="project-link" style="width: max-content;" href="https://pokeapp-sixto-mendoza.vercel.app" target="_blank" rel="noreferrer">Visitar Sitio Web</a>
           </div>
         </div>
         <div class="contenedor-imagen-proyecto">
           <img class="imagen-proyectos" src="imagenes/Proyecto2.png" alt="dionisia">
-            <div class="project-overlay">
-            <p class="project-text"><strong> Dionisia (15/01/2023)</strong><br/><br/>
-              E-commerce de vinos<br/><br/>
+          <div class="project-overlay">
+            <p class="project-text"><strong> Dionisia (15/01/2023)</strong><br><br>
+              E-commerce de vinos<br><br>
               Tecnologías: Typescript, Next.js, Redux, Node.js, 
               Express, PostgreSQL, Sequelize,  Nodemailer, Auth0, cloudinary, Paypal, Stripe.</p>
-              <a class="project-link" style="width: max-content;"  href="https://la-dionisia-front.vercel.app" target="_blank" rel="noreferrer">Visitar Sitio Web</a>
+            <a class="project-link" style="width: max-content;"  href="https://la-dionisia-front.vercel.app" target="_blank" rel="noreferrer">Visitar Sitio Web</a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="contenedor-sobre-mi">
+    </section>
+    <section class="contenedor-sobre-mi">
       <h4 class="texto-emocionado">
         Estoy emocionado por seguir creciendo como profesional y enfrentar nuevos proyectos que me permitan aprovechar al máximo mis habilidades y conocimientos en el desarrollo web.
       </h4>
-      
-  </div>
-  <div class="contenedor-referencias">
+    </section>
+    <section class="contenedor-referencias">
     <div class="referencias">
       <h5 class="titulo-referencias">
         Referencias
       </h5>
-    <div class="sub-contenedor-referencias" style="border-radius: 20px 20px 0 0;">
-      
-      <div class="contenedor-imagenes-skills" style="margin-bottom: 4px;">
-        <img class="lenguajes-fotos" src="imagenes/Guillermo.png" alt="lenguajes">
-        <div class="barras-foto">
-          <div class="barF"></div>
-          <div class="barF"></div>
-          <div class="barF"></div>
+      <div class="sub-contenedor-referencias" style="border-radius: 20px 20px 0 0;">
+        <div class="contenedor-imagenes-skills" style="margin-bottom: 4px;">
+          <img class="lenguajes-fotos" src="imagenes/Guillermo.png" alt="lenguajes">
+          <div class="barras-foto">
+            <div class="barF"></div>
+            <div class="barF"></div>
+            <div class="barF"></div>
+          </div>
         </div>
-      </div>
-      <div class="icons-contenedor">
-        <a href="https://www.linkedin.com/in/guillermo-ojeda-140742208/" target="_blank" rel="noreferrer">
-          <i class="fab fa-linkedin icons" style="color: #0077B5"></i>
-        </a>
-        <a href="https://github.com/SiriusGroza1413" target="_blank" rel="noreferrer">
-          <i class="fab fa-github icons" style="color: #24292E;"></i>
-        </a>
-      </div>
-        <p class="texto-referencias">
-          <strong>Guillermo Ojeda</strong><br/><br/>
-          <strong>Sixto</strong> es un talentoso desarrollador con habilidades impresionantes. Trabajar juntos en nuestro proyecto fue altamente productivo y agradable. Lo recomiendo completamente como referencia personal en el campo del desarrollo web.</p>
-      </div>
+        <div class="icons-contenedor">
+          <a href="https://www.linkedin.com/in/guillermo-ojeda-140742208/" target="_blank" rel="noreferrer">
+            <i class="fab fa-linkedin icons" style="color: #0077B5"></i>
+          </a>
+          <a href="https://github.com/SiriusGroza1413" target="_blank" rel="noreferrer">
+            <i class="fab fa-github icons" style="color: #24292E;"></i>
+          </a>
+        </div>
+          <p class="texto-referencias">
+            <strong>Guillermo Ojeda</strong><br/><br/>
+            <strong>Sixto</strong> es un talentoso desarrollador con habilidades impresionantes. Trabajar juntos en nuestro proyecto fue altamente productivo   y agradable. Lo recomiendo completamente como referencia personal en el campo del desarrollo web.</p>
+        </div>
 
-      <div class="sub-contenedor-referencias" style="border-radius: 0 0 20px 20px;">
-      
+        <div class="sub-contenedor-referencias" style="border-radius: 0 0 20px 20px;">
         <div class="contenedor-imagenes-skills" style="margin-bottom: 4px;">
           <img class="lenguajes-fotos" src="imagenes/Carmelo.png" alt="lenguajes">
           <div class="barras-foto">
@@ -270,13 +266,16 @@
             <strong>Carmelo Cabezón</strong><br/><br/>
              Trabajar con <strong>Sixto</strong> en el proyecto fue una experiencia realmente positiva. Su habilidad para resolver problemas y su pasión por la programación se destacaron en cada etapa del desarrollo. <strong>Sixto</strong> siempre aportó ideas creativas y mostró un gran compromiso con el éxito del equipo. Es un verdadero placer recomendar a <strong>Sixto</strong> como referencia personal en el campo del desarrollo web. Cualquier equipo estaría encantado de contar con su colaboración y profesionalismo.</p>
         </div>
-    </div>
-  </div>
-  <div class="texto-final">
-    <h2 class="texto-perfil">
-      "En mi camino de vida, adopto el lema <span>'Vive, Aprende y Mejora... un día a la vez'</span>. Cada día es una oportunidad para crecer, aprender y ser una mejor versión de mí mismo.
-    </h2>
-  </div>
+      </div>
+    </section>
+    <section class="texto-final">
+      <div class="texto-final">
+        <h2 class="texto-perfil">
+        "En mi camino de vida, adopto el lema <span>'Vive, Aprende y Mejora... un día a la vez'</span>. Cada día es una oportunidad para crecer, aprender y ser una mejor versión de mí mismo.
+        </h2>
+      </div>
+    </section>
+  </main>
   <div class="foto-fin">
     <img class="" src="imagenes/Mendoza2.png" alt="Mi Imagen">
   </div>
@@ -287,20 +286,15 @@
         <a href="https://wa.me/51912348255" target="_blank" rel="noreferrer">
           <i class="fab fa-whatsapp icons-skills" style="color: #25D366;"></i>
         </a>
-        <a href="https://www.linkedin.com/in/sixto-mendoza-orden/"" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/sixto-mendoza-orden/" target="_blank" rel="noreferrer">
           <i class="fab fa-linkedin icons-skills" style="color: #0077B5"></i>
         </a>
         <a href="https://github.com/Sixtotk" target="_blank" rel="noreferrer">
           <i class="fab fa-github icons-skills" style="color: #24292E;"></i>
+        </a>
       </div>
     </div> 
-    
   </footer>
-
-    
-
-    
-
 </body>
 
 <script>
